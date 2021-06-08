@@ -81,6 +81,7 @@ if choice == "Home":
         st.text("In 2016, the National Assembly enacted the Prevention of Electronic Crimes Act (“PECA”) to")
         st.text("provide comprehensive legal framework to define many kinds of electronic crimes, mechanisms")
         st.text("for investigation, prosecution and adjudication in relation to electronic crimes.")
+        st.text("http://www.na.gov.pk/uploads/documents/1462252100_756.pdf")
         st.text("-------------------------------------------------------------------------------------------")
         st.header("Pakistan Penal Code.")
         image = Image.open("ppc.jpg")
@@ -91,6 +92,7 @@ if choice == "Home":
         st.text("the same code and subsequently after several amendments by different governments, in Pakistan ")
         st.text("it is now a mixture of Islamic and English Law. Presently, the Pakistan Penal Code is still in")
         st.text("effect and can be amended by the Senate of Pakistan")
+        st.text("http://www.pakistani.org/pakistan/legislation/1860/actXLVof1860.html")
 
 
 
