@@ -31,7 +31,7 @@ def app():
 
     if choice == "Cyber Stalking":
 
-        st.subheader("The Punishment for Cyber Stalking is jail - 5 years and fine 10 million rupees")
+        st.info("The Punishment for Cyber Stalking is jail - 5 years and fine 10 million rupees")
         st.text("")
         st.text("Cyber Stalking is the use of the Internet or other electronic means to stalk or harass an")
         st.text("individual, group, or organization. It may include false accusations, defamation, slander")
@@ -39,7 +39,7 @@ def app():
 
     elif choice == "Cyber Terrorism":
 
-        st.subheader("The Punishment for Cyber Terrorism is jail - 14 years and fine fifty million rupees")
+        st.info("The Punishment for Cyber Terrorism is jail - 14 years and fine fifty million rupees")
         st.text("")
         st.text("Cyber Terrorism is the use of the Internet to conduct violent acts that result in, or ")
         st.text("threaten, loss of life or significant bodily harm, in order to achieve political or  ")
@@ -47,14 +47,14 @@ def app():
 
     elif choice == "Spamming":
 
-        st.subheader("The Punishment for Spamming is jail - 3 months and fine one million rupees")
+        st.info("The Punishment for Spamming is jail - 3 months and fine one million rupees")
         st.text("")
         st.text("Spam is a crime against all users of the Internet since it wastes both the storage ")
         st.text("and network capacities of ISPs, as well as often simply being offensive.")
 
     elif choice == "Spoofing":
 
-        st.subheader("The Punishment for Spoofing is jail - 3 years and fine five hundred thousand rupees ")
+        st.info("The Punishment for Spoofing is jail - 3 years and fine five hundred thousand rupees ")
         st.text("")
         st.text("Spoofing is the act of disguising a communication from an unknown source as being ")
         st.text(" from a known, trusted source. Spoofing can apply to emails, phone calls, and websites,")
@@ -65,7 +65,7 @@ def app():
 
     elif choice == "Electronic Forgery":
 
-        st.subheader("The Punishment for Electronic Forgery is jail - 7 years and fine 5 million rupees")
+        st.info("The Punishment for Electronic Forgery is jail - 7 years and fine 5 million rupees")
         st.text("")
         st.text("Electronic forgery means the creation or use of an “electronic signature” of that of ")
         st.text("another natural person without authorization or ratification, and with the intent to")
@@ -73,7 +73,7 @@ def app():
 
     elif choice == "Electronic Fraud":
 
-        st.subheader("The Punishment for Electronic Fraud is jail - 2 years and fine ten million rupees ")
+        st.info("The Punishment for Electronic Fraud is jail - 2 years and fine ten million rupees ")
         st.text("")
         st.text("Electronic fraud is a type of cybercrime fraud or deception which makes use of the ")
         st.text("Internet and could involve hiding of information or providing incorrect information ")
@@ -81,85 +81,85 @@ def app():
 
     elif choice == "Unauthorized access to information system or data":
 
-        st.subheader("The Punishment for this crime is jail- 3 months and fine fifty thousand rupees ")
+        st.info("The Punishment for this crime is jail- 3 months and fine fifty thousand rupees ")
         st.text("")
         st.text("")
 
     elif choice == "Unauthorized copying or transmission of data":
 
-        st.subheader("The Punishment for this crime is jail -  6 months and fine one hundred thousand rupees ")
+        st.info("The Punishment for this crime is jail -  6 months and fine one hundred thousand rupees ")
         st.text("")
         st.text("")
 
     elif choice == "Interference with information system or data":
 
-        st.subheader("The Punishment for this crime is jail - 2 years and fine five hundred thousand rupees")
+        st.info("The Punishment for this crime is jail - 2 years and fine five hundred thousand rupees")
         st.text("")
         st.text("")
 
     elif choice == "Unauthorized access to critical infrastructure information system or data":
 
-        st.subheader("The Punishment for this crime is jail - 3 years and fine one million")
+        st.info("The Punishment for this crime is jail - 3 years and fine one million")
         st.text("")
         st.text("")
 
     elif choice == "Unauthorized copying of data":
 
-        st.subheader("The Punishment for this crime is jail - 5 years and fine five million rupees")
+        st.info("The Punishment for this crime is jail - 5 years and fine five million rupees")
         st.text("")
         st.text("")
 
     elif choice == "Interference with critical infrastructure information system or data":
 
-        st.subheader("The Punishment for this crime is jail - 7 years and fine ten million rupees")
+        st.info("The Punishment for this crime is jail - 7 years and fine ten million rupees")
         st.text("")
         st.text("")
 
     elif choice == "Glorification of an offence and hate speech":
 
-        st.subheader("The Punishment for this crime is jail - 5 years and fine ten million rupees")
+        st.info("The Punishment for this crime is jail - 5 years and fine ten million rupees")
         st.text("")
         st.text("")
 
     elif choice == "Making, obtaining, or supplying device for use in offence":
 
-        st.subheader("The Punishment for this crime is jail - 6 months and fine fifty thousand rupees ")
+        st.info("The Punishment for this crime is jail - 6 months and fine fifty thousand rupees ")
         st.text("")
         st.text("")
 
     elif choice == "Unauthorized use of identity information":
 
-        st.subheader("The Punishment for this crime is jail- 3 years and fine 5 million rupees ")
+        st.info("The Punishment for this crime is jail- 3 years and fine 5 million rupees ")
         st.text("")
         st.text("")
 
     elif choice == "Unauthorized issuance of SIM cards":
 
-        st.subheader("The Punishment for this crime is jail -  3 years and fine five hundred thousand rupees ")
+        st.info("The Punishment for this crime is jail -  3 years and fine five hundred thousand rupees ")
         st.text("")
         st.text("")
 
     elif choice == "Tampering of communication equipment":
 
-        st.subheader("The Punishment for this crime is jail - 3 years and fine one million rupees")
+        st.info("The Punishment for this crime is jail - 3 years and fine one million rupees")
         st.text("")
         st.text("")
 
     elif choice == "Unauthorized interception":
 
-        st.subheader("The Punishment for this crime is jail - 2 years and fine five hundred thousand rupees")
+        st.info("The Punishment for this crime is jail - 2 years and fine five hundred thousand rupees")
         st.text("")
         st.text("")
 
     elif choice == "Offences against dignity of natural person":
 
-        st.subheader("The Punishment for this crime is jail- 3 years and fine five hundred thousand rupees ")
+        st.info("The Punishment for this crime is jail- 3 years and fine five hundred thousand rupees ")
         st.text("")
         st.text("")
 
     elif choice == "Offences against modesty of a natural person and minor":
 
-        st.subheader("The Punishment for this crime is jail -  7 years and fine 5 million rupees")
+        st.info("The Punishment for this crime is jail -  7 years and fine 5 million rupees")
         st.text("")
         st.text("")
 
@@ -167,7 +167,7 @@ def app():
 
     elif choice == "Child Pornography":
 
-        st.subheader("The Punishment for Child Pornography is jail - 7 years and fine 5 million rupees")
+        st.info("The Punishment for Child Pornography is jail - 7 years and fine 5 million rupees")
         st.text("")
         st.text("")
 
