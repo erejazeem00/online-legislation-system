@@ -128,6 +128,160 @@ elif choice == "Login":
                 selection = st.radio("Go to", list(PAGES.keys()))
                 page = PAGES[selection]
                 page.app()
+                
+                st.write("---------------------------------------------------------------------------------------------")
+
+                if st.checkbox("Find a Lawyer"):
+                   st.success("We will find you a LAWYER!")
+                   image = Image.open('law.jpg')
+                   st.image(image, width=700)
+                   st.write("Select City and get to know about Pakistani Lawyers and Law Firms:")
+
+                   options = ["-", "Lahore", "Karachi", "Islamabad", "Peshawar", "Rawalpindi"]
+                   choice = st.selectbox("City", options)
+
+                   if choice == "Lahore":
+                       st.subheader("1. Bajwa Law Chamber")
+                       st.write("Address: Bajwa Law Chamber, Court Street, 26 Lower Mall, St Nagar, Lahore, Punjab 54000")
+                       st.info("Phone No: +923334882726")
+                       st.write("Mian Owais Ilyas Advocate is one of the best family lawyers of the High Court of Pakistan Lahore. Expertise in custody of children, international divorce, court marriage, online marriage, khula, international khola, foreign marriage with Pakistani citizen. He handles all kinds of family matters in Pakistan.")
+                       st.write("******************************************************************************************")
+
+                       st.subheader("2. Nazia Law Associates")
+                       st.write("Address: LG28, Saddiq Trade Center, Gulberg, Lahore 54000, Pakistan")
+                       st.info("Phone No: +923334882726")
+                       st.write("Lahore-based A.A. Nazia Law Associates has additional offices in other cities. Practices include family law – court marriage, divorce and dissolution, wife and child care, guardianship and succession certificates, custody of children, international abduction, and adoption.")
+                       st.write("*******************************************************************************************")
+
+                       st.subheader("3. Rana Ijaz & Partners")
+                       st.write("Address: RA Tower, 7-A Turner Road, Lahore 54000, Pakistan")
+                       st.info("Phone No: +923334882726")
+                       st.write("Rana Law Chambers also famous as Rana Ijaz & Partners, provides consulting and litigation services in a wide range of fields, including foreign investment, company law, contracts, banking law, white collar crime, intellectual property and international trade and commerce law.")
+                       st.write("********************************************************************************************")
+
+                       st.subheader("4. Zafar Associates – LLP")
+                       st.write("Address: 8-G Mushtaq Ahmed Gurmani Rd, Block G Gulberg 2, Lahore, Punjab 54600")
+                       st.info("Phone No: +923334882726")
+                       st.write("Zafar & Associates – LLP, founded in 1975, is one of the world’s largest specialized global companies providing extensive legal services to a wide range of domestic and international clients in the areas covered by Success Pages.")
+                       st.write("********************************************************************************************")
+
+                       st.subheader("5. Haseeb Baig Associates")
+                       st.write("Address: PMA Trade Centre, 3rd Floor, Office 301, Ferozpur Road, Lahore 54500 Pakistan")
+                       st.info("Phone No: +923334882726")
+                       st.write("Haseeb Baig Associates has been established as a general practice law firm. The firm is highly valued for its ADR, corporate and commercial law practices and provides solution-oriented legal services to a large number of clients, including national and international public organizations.")
+                       st.write("**********************************************************************************************")
+
+
+                   elif choice == "Karachi":
+                       st.subheader("1. A. Nawaz Osmani Law Associates")
+                       st.write("Address: Suite # 17, 7th Floor, Office Towers, Rimpa Plaza,")
+                       st.write("M A Jinnah Road,")
+                       st.write("Karachi 75300- Pakistan")
+                       st.info("Phone+92 321 2770225")
+                       st.write("*********************************************************************************************")
+
+                       st.subheader("2.Liaquat Merchant Associates (LMA) Barristers, Advocates & Corporate Legal Consultants")
+                       st.write("Address: Building No. 4-C, 9th Zamzama Commercial Lane, Phase V, DHA")
+                       st.write("Karachi 75500- Pakistan")
+                       st.info("Phone+92 21 35835101")
+                       st.write("*********************************************************************************************")
+
+                       st.subheader("3.Zain Sheikh & Associates")
+                       st.write("Address: 64/1, 23rd Street")
+                       st.write("Khayaban-e-Badban, D.H.A. Phase 5: Karachi-Pakistan")
+                       st.info("Phone+92 2-135-853-010 or +92 2-135-244-259")
+                       st.write("*********************************************************************************************")
+
+                       st.subheader("4. Ali & Associates")
+                       st.write("Address: 23-A Block 6, P.E.C.H.S., Shahrah-e-Faisal")
+                       st.write("First Floor, Shaheen Towers: Karachi 75400- Pakistan")
+                       st.info("Phone+92 2-134-534-580")
+                       st.write("*********************************************************************************************")
+
+                       st.subheader("5. Ahmed Ali Dewan & Co")
+                       st.write("Address: Abdullah Haroon Road")
+                       st.write("Suite # 9, 1st Floor, Fareed Chamber: Karachi 74400- Pakistan")
+                       st.info("Phone+92 021-35620898")
+                       st.write("*********************************************************************************************")
+
+
+                   elif choice == "Islamabad":
+                       st.subheader("1. Alvi Law Associates")
+                       st.write("Address: 21-Fatima Jinnah block,F-8, Markaz Islamabad")
+                       st.write("Park Towers, F-10 Islamabad: Pakistan")
+                       st.info("Phone+92 300 5334502")
+                       st.write("***************************************************************************************")
+
+                       st.subheader("2.AQLAAL Advocates")
+                       st.write("Address:G-8 Markaz, 19, Second Floor Executive Complex")
+                       st.write("Islamabad 44000: Pakistan")
+                       st.info("Phone+92 51 8438140-2")
+                       st.write("****************************************************************************************")
+
+                       st.subheader("3. Legal Oracles")
+                       st.write("Address:207, Millennium Heights, F-11, Markaz")
+                       st.write("Islamabad 9251: Pakistan")
+                       st.write("Phone+92-51-2224803")
+                       st.write("****************************************************************************************")
+
+                       st.subheader("4. Nishtar & Zafar Corporate Counsels")
+                       st.write("Address:Ground Floor, State Life Building #7, Blue Area F-6/4")
+                       st.write("Islamabad 44000:Pakistan")
+                       st.info("Phone+92 332 820 4444")
+                       st.write("****************************************************************************************")
+
+                       st.subheader("5. Septentrio Global Consulting")
+                       st.write("Address:32-A, Street 38, F-10/4, Nazim ud Din Road")
+                       st.write("Islamabad 44000- Pakistan")
+                       st.info("Phone+92 302 5077 777")
+                       st.write("*******************************************************************************************")
+
+                   elif choice == "Peshawar":
+                       st.subheader("1. Kakakhel Law Associates")
+                       st.write("Peshawar, Pakistan")
+                       st.write("Full Service International Law Firm in Pakistan")
+                       st.info("Phone +92 91 5250412")
+                       st.write("-------------------------------------------------------------------------------------------")
+
+                       st.subheader("2.Valid Consultants")
+                       st.write("Peshawar, Pakistan")
+                       st.write("Immigration, Visas and Work Permit Law Firm in Peshawar, Pakistan")
+                       st.info("Phone +92 345 9009633")
+                       st.write("------------------------------------------------------------------------------------------")
+
+                   elif choice == "Rawalpindi":
+                       st.subheader("1. Salman & Associates")
+                       st.write("Rawalpindi, Pakistan")
+                       st.write("Aviation, Defense, Engineering & Energy Lawyer in Pakistan")
+                       st.info("Phone +92 51 5707211")
+                       st.write("-----------------------------------------------------------------------------------------")
+
+                       st.subheader("2.Corporate Debt Collections Services Pvt Ltd.")
+                       st.write("Rawalpindi, Pakistan")
+                       st.write("Debt Collection, Legal Consultants, Skip Tracing, Asset Tracing")
+                       st.info("Phone +92 51 5157389")
+                       st.write("-----------------------------------------------------------------------------------------")
+
+                       st.subheader("3.Afzal & Afzal")
+                       st.write("Rawalpindi, Pakistan")
+                       st.write("Corporate Litigation Law Firm in Rawalpindi, Pakistan")
+                       st.info("Phone +92 51 5566297")
+                       st.write("------------------------------------------------------------------------------------------")
+
+                       st.subheader("4.Naqvi Law Associates")
+                       st.write("Rawalpindi, Pakistan")
+                       st.write("Criminal, Civil, Family, Corporate Law Office In Islamabad and Rawalpindi")
+                       st.info("Phone +923 (051) 5567517")
+                       st.write("-----------------------------------------------------------------------------------------")
+
+                       st.subheader("5. Aziz Law Associates")
+                       st.write("Rawalpindi, Pakistan")
+                       st.write("Legal Services to Businesses and Individuals in Rawalpindi, Pakistan")
+                       st.info("Phone +92 30 28162835")
+                       st.write("-----------------------------------------------------------------------------------------")
+
+
+                
 
             else:
                 st.warning("Incorrect Username/Password")
@@ -187,6 +341,156 @@ elif choice == "Admin":
                 selection = st.radio("Go to", list(PAGES.keys()))
                 page = PAGES[selection]
                 page.app()
+                
+                if st.checkbox("Find a Lawyer"):
+                   st.success("We will find you a LAWYER!")
+                   image = Image.open('law.jpg')
+                   st.image(image, width=700)
+                   st.write("Select City and get to know about Pakistani Lawyers and Law Firms:")
+
+                   options = ["-", "Lahore", "Karachi", "Islamabad", "Peshawar", "Rawalpindi"]
+                   choice = st.selectbox("City", options)
+
+                   if choice == "Lahore":
+                       st.subheader("1. Bajwa Law Chamber")
+                       st.write("Address: Bajwa Law Chamber, Court Street, 26 Lower Mall, St Nagar, Lahore, Punjab 54000")
+                       st.info("Phone No: +923334882726")
+                       st.write("Mian Owais Ilyas Advocate is one of the best family lawyers of the High Court of Pakistan Lahore. Expertise in custody of children, international divorce, court marriage, online marriage, khula, international khola, foreign marriage with Pakistani citizen. He handles all kinds of family matters in Pakistan.")
+                       st.write("******************************************************************************************")
+
+                       st.subheader("2. Nazia Law Associates")
+                       st.write("Address: LG28, Saddiq Trade Center, Gulberg, Lahore 54000, Pakistan")
+                       st.info("Phone No: +923334882726")
+                       st.write("Lahore-based A.A. Nazia Law Associates has additional offices in other cities. Practices include family law – court marriage, divorce and dissolution, wife and child care, guardianship and succession certificates, custody of children, international abduction, and adoption.")
+                       st.write("*******************************************************************************************")
+
+                       st.subheader("3. Rana Ijaz & Partners")
+                       st.write("Address: RA Tower, 7-A Turner Road, Lahore 54000, Pakistan")
+                       st.info("Phone No: +923334882726")
+                       st.write("Rana Law Chambers also famous as Rana Ijaz & Partners, provides consulting and litigation services in a wide range of fields, including foreign investment, company law, contracts, banking law, white collar crime, intellectual property and international trade and commerce law.")
+                       st.write("********************************************************************************************")
+
+                       st.subheader("4. Zafar Associates – LLP")
+                       st.write("Address: 8-G Mushtaq Ahmed Gurmani Rd, Block G Gulberg 2, Lahore, Punjab 54600")
+                       st.info("Phone No: +923334882726")
+                       st.write("Zafar & Associates – LLP, founded in 1975, is one of the world’s largest specialized global companies providing extensive legal services to a wide range of domestic and international clients in the areas covered by Success Pages.")
+                       st.write("********************************************************************************************")
+
+                       st.subheader("5. Haseeb Baig Associates")
+                       st.write("Address: PMA Trade Centre, 3rd Floor, Office 301, Ferozpur Road, Lahore 54500 Pakistan")
+                       st.info("Phone No: +923334882726")
+                       st.write("Haseeb Baig Associates has been established as a general practice law firm. The firm is highly valued for its ADR, corporate and commercial law practices and provides solution-oriented legal services to a large number of clients, including national and international public organizations.")
+                       st.write("**********************************************************************************************")
+
+
+                   elif choice == "Karachi":
+                       st.subheader("1. A. Nawaz Osmani Law Associates")
+                       st.write("Address: Suite # 17, 7th Floor, Office Towers, Rimpa Plaza,")
+                       st.write("M A Jinnah Road,")
+                       st.write("Karachi 75300- Pakistan")
+                       st.info("Phone+92 321 2770225")
+                       st.write("*********************************************************************************************")
+
+                       st.subheader("2.Liaquat Merchant Associates (LMA) Barristers, Advocates & Corporate Legal Consultants")
+                       st.write("Address: Building No. 4-C, 9th Zamzama Commercial Lane, Phase V, DHA")
+                       st.write("Karachi 75500- Pakistan")
+                       st.info("Phone+92 21 35835101")
+                       st.write("*********************************************************************************************")
+
+                       st.subheader("3.Zain Sheikh & Associates")
+                       st.write("Address: 64/1, 23rd Street")
+                       st.write("Khayaban-e-Badban, D.H.A. Phase 5: Karachi-Pakistan")
+                       st.info("Phone+92 2-135-853-010 or +92 2-135-244-259")
+                       st.write("*********************************************************************************************")
+
+                       st.subheader("4. Ali & Associates")
+                       st.write("Address: 23-A Block 6, P.E.C.H.S., Shahrah-e-Faisal")
+                       st.write("First Floor, Shaheen Towers: Karachi 75400- Pakistan")
+                       st.info("Phone+92 2-134-534-580")
+                       st.write("*********************************************************************************************")
+
+                       st.subheader("5. Ahmed Ali Dewan & Co")
+                       st.write("Address: Abdullah Haroon Road")
+                       st.write("Suite # 9, 1st Floor, Fareed Chamber: Karachi 74400- Pakistan")
+                       st.info("Phone+92 021-35620898")
+                       st.write("*********************************************************************************************")
+
+
+                   elif choice == "Islamabad":
+                       st.subheader("1. Alvi Law Associates")
+                       st.write("Address: 21-Fatima Jinnah block,F-8, Markaz Islamabad")
+                       st.write("Park Towers, F-10 Islamabad: Pakistan")
+                       st.info("Phone+92 300 5334502")
+                       st.write("***************************************************************************************")
+
+                       st.subheader("2.AQLAAL Advocates")
+                       st.write("Address:G-8 Markaz, 19, Second Floor Executive Complex")
+                       st.write("Islamabad 44000: Pakistan")
+                       st.info("Phone+92 51 8438140-2")
+                       st.write("****************************************************************************************")
+
+                       st.subheader("3. Legal Oracles")
+                       st.write("Address:207, Millennium Heights, F-11, Markaz")
+                       st.write("Islamabad 9251: Pakistan")
+                       st.write("Phone+92-51-2224803")
+                       st.write("****************************************************************************************")
+
+                       st.subheader("4. Nishtar & Zafar Corporate Counsels")
+                       st.write("Address:Ground Floor, State Life Building #7, Blue Area F-6/4")
+                       st.write("Islamabad 44000:Pakistan")
+                       st.info("Phone+92 332 820 4444")
+                       st.write("****************************************************************************************")
+
+                       st.subheader("5. Septentrio Global Consulting")
+                       st.write("Address:32-A, Street 38, F-10/4, Nazim ud Din Road")
+                       st.write("Islamabad 44000- Pakistan")
+                       st.info("Phone+92 302 5077 777")
+                       st.write("*******************************************************************************************")
+
+                   elif choice == "Peshawar":
+                       st.subheader("1. Kakakhel Law Associates")
+                       st.write("Peshawar, Pakistan")
+                       st.write("Full Service International Law Firm in Pakistan")
+                       st.info("Phone +92 91 5250412")
+                       st.write("-------------------------------------------------------------------------------------------")
+
+                       st.subheader("2.Valid Consultants")
+                       st.write("Peshawar, Pakistan")
+                       st.write("Immigration, Visas and Work Permit Law Firm in Peshawar, Pakistan")
+                       st.info("Phone +92 345 9009633")
+                       st.write("------------------------------------------------------------------------------------------")
+
+                   elif choice == "Rawalpindi":
+                       st.subheader("1. Salman & Associates")
+                       st.write("Rawalpindi, Pakistan")
+                       st.write("Aviation, Defense, Engineering & Energy Lawyer in Pakistan")
+                       st.info("Phone +92 51 5707211")
+                       st.write("-----------------------------------------------------------------------------------------")
+
+                       st.subheader("2.Corporate Debt Collections Services Pvt Ltd.")
+                       st.write("Rawalpindi, Pakistan")
+                       st.write("Debt Collection, Legal Consultants, Skip Tracing, Asset Tracing")
+                       st.info("Phone +92 51 5157389")
+                       st.write("-----------------------------------------------------------------------------------------")
+
+                       st.subheader("3.Afzal & Afzal")
+                       st.write("Rawalpindi, Pakistan")
+                       st.write("Corporate Litigation Law Firm in Rawalpindi, Pakistan")
+                       st.info("Phone +92 51 5566297")
+                       st.write("------------------------------------------------------------------------------------------")
+
+                       st.subheader("4.Naqvi Law Associates")
+                       st.write("Rawalpindi, Pakistan")
+                       st.write("Criminal, Civil, Family, Corporate Law Office In Islamabad and Rawalpindi")
+                       st.info("Phone +923 (051) 5567517")
+                       st.write("-----------------------------------------------------------------------------------------")
+
+                       st.subheader("5. Aziz Law Associates")
+                       st.write("Rawalpindi, Pakistan")
+                       st.write("Legal Services to Businesses and Individuals in Rawalpindi, Pakistan")
+                       st.info("Phone +92 30 28162835")
+                       st.write("-----------------------------------------------------------------------------------------")
+
 
         else:
             st.error('The username or password you have entered is invalid.')
